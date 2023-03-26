@@ -1,0 +1,158 @@
+#include <iostream>
+
+using namespace std; 
+
+float tomatoes() 
+{
+    cout<<"tomatoes 1kg=30";
+    float qua;
+    cout<<"\n quantity=";
+    cin>>qua;
+    cout<<"\n the total cost of tomatoes:"<<qua*25;
+    return qua*25;
+}
+
+float onion() 
+{
+    cout<<"onion 1kg=25";
+    float qua;
+    cout<<"\n quantity=";
+    cin>>qua;
+    cout<<"\n the total cost of onion:"<<qua*25;
+    return qua*25;
+} 
+float potatoes() 
+{
+    cout<<"potatoes 1kg=20";
+    float qua;
+    cout<<"\n quantity=";
+    cin>>qua;
+    cout<<"\n the total cost of potatoes:"<<qua*25;
+    return qua*25;
+} 
+float cabbage() 
+{
+    cout<<"cabbage 1kg=30";
+    float qua;
+    cout<<"\n quantity=";
+    cin>>qua;
+    cout<<"\n the total cost of cabbage:"<<qua*25;
+    return qua*25; 
+} 
+float  ladiesfinger() 
+{
+    cout<<"ladiesfinger 1kg=35";
+    float qua;
+    cout<<"\n quantity=";
+    cin>>qua;
+    cout<<"\n the total cost of ladiesfinger:"<<qua*25;
+    return qua*25;
+    
+}
+float beetroot() 
+{
+    cout<<"beetroot 1kg=40";
+    float qua;
+    cout<<"\n quantity=";
+    cin>>qua;
+    cout<<"\n the total cost of beetroot :"<<qua*25;
+    return qua*25;
+} 
+float watermelon() 
+{
+    cout<<"watermelon 1kg=100";
+    float qua;
+    cout<<"\n quantity=";
+    cin>>qua;
+    cout<<"\n the total cost of watermelon:"<<qua*25;
+    return qua*25;
+}
+float apple() 
+{
+    cout<<"apple 1kg=130";
+    float qua;
+    cout<<"\n quantity=";
+    cin>>qua;
+    cout<<"\n the total cost of apple:"<<qua*25;
+    return qua*25;
+} 
+float orange () 
+{
+    cout<<"orangle";
+    float qua;
+    cout<<"\n quantity=";
+    cin>>qua;
+    cout<<"\n the total cost of tomatoes:"<<qua*25;
+    return qua*25;
+}
+
+float grapes() 
+{
+    cout<<"grapes :1kg=30";
+    float qua;
+    cout<<"\n quantity=";
+    cin>>qua;
+    cout<<"\n the total cost of grapes:"<<qua*25;
+    return qua*25;
+}
+int main()
+{
+    int ch;
+    float ba, totalamount,a,b,c,d,e,f,g,h,i,j; 
+    cout<<"\t\t\t*********** WELCOME TO SUGANMARKET***********";
+    start:
+    cout<<"\n 1.tomatoes"; 
+    cout<<"\n 2.onion";
+    cout<<"\n 3.potatoes"; 
+    cout<<"\n 4.cabbage";
+    cout<<"\n 5.ladiesfinger";
+    cout<<"\n 6.beetroot";
+    cout<<"\n 7.watermelan";
+    cout<<"\n 8.apple";
+    cout<<"\n 9.orange";
+    cout<<"\n 10.grapes";  
+    cout<<"\nEnter your choice:";
+    cin>>ch;
+    switch(ch)
+    { 
+        case 1:
+        a=tomatoes();
+        break; 
+        case 2:
+        b=onion();
+        break; 
+        case 3:
+        c=potatoes();
+        break;
+        case 4:
+        d=cabbage();
+        break;
+        case 5:
+        e=ladiesfinger();
+        break; 
+        case 6:
+        f=beetroot();
+        break; 
+        case 7:
+        g=watermelon();
+        break; 
+        case 8:
+        h=apple();
+        break;
+        case 9:
+        i=orange();
+        break;
+        case 10:
+        j=grapes();
+        break; 
+        default:
+        exit(0);  
+    }
+    totalamount=a+b+c+d+e+e+f+g+i+j;
+    cout<<"\nthe total cost:"<<totalamount; 
+    cout<<"\n thanks you \n visit again";
+    return 0;
+    goto start;
+  
+}
+
